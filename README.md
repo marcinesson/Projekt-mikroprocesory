@@ -39,7 +39,7 @@ Komunikacja między komputerem (PC) a mikrokontrolerem (ST) odbywa się za pomoc
     *   Znak `>` (0x3E) wysyłany jest jako `\2`
 *   **Suma kontrolna:** 16-bitowa suma kontrolna obliczana na podstawie ładunku i ID, rzutowana na 4 znaki w formacie szesnastkowym (np. `1A2F`), wykorzystująca operację XOR ze stałą `0x1021`.
 
-### 📋 Dostępne Komendy
+### Dostępne Komendy
 | Rozkaz | Długość (b) | Opis |
 | :--- | :--- | :--- |
 | `GET CH0` | 7 | Zwraca binarnie (Big Endian) wyniki FFT z Kanału 0: Częstotliwość (4b) i Amplitudę (4b). |
